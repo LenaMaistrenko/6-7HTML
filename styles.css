@@ -1,0 +1,236 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2 {
+  text-align: center;
+  color: black;
+}
+.section {
+  width: 100%;
+}
+.products {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.product {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: black;
+}
+.product img {
+}
+
+.footer-section {
+  text-align: center;
+  font-size: 24px;
+}
+
+.container-task2 {
+  width: 200px;
+  background-color: #ffffff;
+}
+.menu {
+  list-style: none;
+  background-color: yellowgreen;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  transition: background-color 0.3s;
+}
+
+.menu-item img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+.menu-item:hover {
+  background-color: green;
+}
+
+/* --------------------------------------------TASK 3 --------------------------------------------------------- */
+body {
+  /* padding: 0;
+  margin: 0; */
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  color: white;
+}
+
+header {
+  height: 15%;
+  background-color: blueviolet;
+  text-align: left;
+  padding: 10px 0 10px 20px;
+  margin: 20px 20px;
+}
+
+nav {
+  height: 15%;
+  background-color: red;
+  text-align: left;
+  padding: 10px 0 10px 20px;
+  margin: 0 20px;
+}
+
+.left-side,
+.right-side {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.left-side {
+  float: left;
+  width: 20%;
+  margin: 20px 20px;
+}
+
+.left-side-1 {
+  margin-bottom: 20px;
+  background-color: #d18282;
+  height: 100px;
+  padding: 10px 0 10px 10px;
+}
+
+.left-side-2 {
+  margin-top: 20px;
+  height: 150px;
+  background-color: #d18282;
+  padding: 10px 0 10px 10px;
+}
+
+.right-side {
+  float: right;
+  width: 10%;
+  margin: 20px 20px;
+  text-align: center;
+  background-color: #d18282;
+}
+
+main {
+  float: left;
+  width: 64%;
+  margin: 20px 0;
+  box-sizing: border-box;
+  background-color: cadetblue;
+  padding: 10px 20px;
+}
+
+.content-block {
+  padding: 20px;
+  background-color: aquamarine;
+  margin-top: 10px;
+}
+footer {
+  clear: both;
+  background-color: rgb(87, 87, 206);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+}
+
+/* --------------------------------------------TASK 4 --------------------------------------------------------- */
+.footer-wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 250px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0 20px;
+}
+.footer-wrap ul {
+  list-style: none;
+  padding: 0 0 20px 0;
+}
+
+.footer-wrap::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+}
+.fb {
+  width: 40px;
+  height: 40px;
+  background-image: url("./img/fb_gray.png");
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.fb:hover {
+  background-image: url("./img/fb.png");
+  cursor: pointer;
+}
+
+.insta {
+  width: 40px;
+  height: 40px;
+  background-image: url("./img/insta_gray.png");
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.insta:hover {
+  background-image: url("./img/insta.png");
+  cursor: pointer;
+}
+.youtube {
+  width: 40px;
+  height: 40px;
+  background-image: url("./img/youtube_gray.png");
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.youtube:hover {
+  background-image: url("./img/youtube.png");
+  cursor: pointer;
+}
+
+.footer-menu {
+  text-align: left;
+  padding-top: 15px;
+}
+
+.footer-menu span {
+  border-bottom: 3px solid transparent;
+}
+.footer-menu span:hover {
+  border-bottom: 3px solid white;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
